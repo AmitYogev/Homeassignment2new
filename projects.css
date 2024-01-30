@@ -63,7 +63,9 @@ img:hover {
     img {
         width: 30%;
         height: 50%;
-        
-    
+    }
+    .video-container{
+        width:300px;
+         height:230px;
     }
 }
