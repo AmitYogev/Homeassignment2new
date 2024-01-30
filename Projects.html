@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="/navbar.css">
+    <link rel="stylesheet" href="./projects.css">
+</head>
+
+<body>
+    <header style="z-index: 500;">
+        <nav style="z-index: 700;">
+            <ul class="sidebar">
+                <li onclick="hidesidebar()">
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26">
+                            <path
+                                d="m177-120-57-57 184-183H200v-80h240v240h-80v-104L177-120Zm343-400v-240h80v104l183-184 57 57-184 183h104v80H520Z" />
+                        </svg>
+                    </a>
+                </li>
+                <li><a href="./index.html">Homepage</a></li>
+                <li><a href="./aboutme.html">About Me</a></li>
+                <li><a href="./Skills.html">Skills</a></li>
+                <li><a href="./Projects.html">Projects</a></li>
+            </ul>
+            <ul>
+                <li><a href="./index.html" class="hideonmobile">Homepage</a></li>
+                <li><a href="./aboutme.html" class="hideonmobile">About Me</a></li>
+                <li><a href="./Skills.html" class="hideonmobile">Skills</a></li>
+                <li><a href="./Projects.html" class="hideonmobile">Projects</a></li>
+                <li class="menu-button" onclick=showsidebar()>
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26">
+                            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <script>
+            function showsidebar() {
+                const sidebar = document.querySelector('.sidebar');
+                sidebar.style.display = 'flex';
+            }
+            function hidesidebar() {
+                const sidebar = document.querySelector(".sidebar");
+                sidebar.style.display = "none";
+            }
+
+        </script>
+    </header>
+    <h1><u>My Projects</u></h1>
+    <main>
+        <div class="projects-space">
+            <h2><u>A.Y Jewelry-Jewelry that I make and sell</u></h2>
+            <p>A.Y Jewelry stands as one of the most significant endeavors in my life. I pour my passion into crafting
+                exquisite jewelry, dedicating considerable effort not only to the production process but also to its
+                strategic marketing on Instagram.
+            </p>
+            <div class="flex-box-project-A.Y">
+                <img src="./ITAY.jpeg" alt="ITAY">
+                <img src="./KOBI.jpeg" alt="KOBI">
+                <img src="./ME-AY.jpeg" alt="Amit">
+                <img src="./DOR.jpeg" alt="DOR">
+                <img src="./ME BLUE.jpeg" alt="Amit-2">
+            </div>
+        </div>
+        <div class="projects-space">
+            <h2><u>Hagal Sheli-Responsible for the media field</u></h2>
+            <p>My involvement with "Hagal Sheli", a scholarship program, has been a rewarding volunteer experience. In
+                this
+                capacity, I guide at-risk youth in conquering the powerful waves of the sea through surfing. As the
+                media
+                coordinator, I capture the essence of this incredible association through photos and videos,
+                contributing to
+                its inspiring mission.</p>
+            <div class="flex-box-project-HagaSheli">
+                <div class="video-container">
+                    <iframe width="400" height="315" src="https://www.youtube.com/embed/_CXsw-cX67A" frameborder="0"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="video-container">
+                    <iframe width="400" height="315" src="https://www.youtube.com/embed/qeIgRLHGnsY" frameborder="0"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

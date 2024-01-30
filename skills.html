@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills</title>
+    <link rel="stylesheet" href="/navbar.css">
+    <link rel="stylesheet" href="/skills.css">
+</head>
+<body>
+    <header style="z-index: 500;">
+        <nav style="z-index: 700;">
+            <ul class="sidebar">
+                <li onclick="hidesidebar()">
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26">
+                            <path
+                                d="m177-120-57-57 184-183H200v-80h240v240h-80v-104L177-120Zm343-400v-240h80v104l183-184 57 57-184 183h104v80H520Z" />
+                        </svg>
+                    </a>
+                </li>
+                <li><a href="./index.html">Homepage</a></li>
+                <li><a href="./aboutme.html">About Me</a></li>
+                <li><a href="./Skills.html">Skills</a></li>
+                <li><a href="./Projects.html">Projects</a></li>
+            </ul>
+            <ul>
+                <li><a href="./index.html" class="hideonmobile">Homepage</a></li>
+                <li><a href="./aboutme.html" class="hideonmobile">About Me</a></li>
+                <li><a href="./Skills.html" class="hideonmobile">Skills</a></li>
+                <li><a href="./Projects.html" class="hideonmobile">Projects</a></li>
+                <li class="menu-button" onclick=showsidebar()>
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26">
+                            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <script>
+            function showsidebar() {
+                const sidebar = document.querySelector('.sidebar');
+                sidebar.style.display = 'flex';
+            }
+            function hidesidebar() {
+                const sidebar = document.querySelector(".sidebar");
+                sidebar.style.display = "none";
+            }
+
+        </script>
+    </header>
+    <div class="flex-box-skills">
+        <div class="Skills-s">
+            <h2><u>Applied Skills</u></h2>
+            <ul>
+                <li>C++</li>
+                <li>#C</li>
+                <li>SQL Server</li>
+                <li>HTML</li>
+                <li>IBM SPSS Statistics</li>
+                <li>Excel</li>
+                <li>CRM</li>
+                <li>Office 360</li>
+            </Ul>
+        </div>
+        <div class="Skills-s">
+            <h2><u>Skills</u></h2>
+            <ul>
+                <li>Fast Learner</li>
+                <li>Analytical thinking</li>
+                <li>Problem Solver</li>
+                <li>Engineering thinking</li>
+                <li>Excellent team player</li>
+                <li>Leadership</li>
+                <li>Responsibility</li>
+                <li>Creativity</li>
+            </ul>
+        </div>
+    </div>
+    <h1><u>Work Experience</u></h1>
+    <section>
+    <div class="GD-Sinay">
+        <h2><u>Representative at G.D Sinay Insurance Agency:2020-2021</u></h2>
+        <p>In this position I took responsibility for underwriting and providing 
+            administrative support to agents and representatives. My main tasks included
+             cooperation with large insurance companies such as Menorah, Migdal, Harel 
+             and more. During this period, I successfully managed various aspects of
+              operations, contributed to the efficient functioning of the agency and 
+              improved customer relations.</p>
+    </div>
+    <div class="Telephone-Sales">
+        <h2><u>Telephone Sales Representative at the Accountant's Office: 2022-2023</u></h2>
+        <p>In this dynamic role, I took on the crucial responsibility of nurturing 
+            relationships with both existing and potential clients. My impactful 
+            contributions have centered on identifying strategic opportunities to 
+            expand sales, increase customer satisfaction and properly manage contracts
+             to bring about a successful deal close.In addition, I played a central role
+              in the supervision and management of the database, mainly in Excel. 
+              This multifaceted responsibility added more knowledge to my role, and 
+              demonstrated my data management and organizational skills.</p>
+    </div>
+</section>
+<div class="More-Jobs">
+    <h2><u>Extra jobs throughout the years</u></h2>
+    <ul>
+        <li>Private Math Tutor</li>
+        <li> Waitress</li>
+        <li>Bartender</li>
+        <li>Instructor</li>
+    </ul>
+</div>
+</body>
+</html>
