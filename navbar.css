@@ -78,6 +78,15 @@ nav a:hover {
 .menu-button {
   display: none;
 }
+.sidebar .current-page-m{
+  background-color: aqua;
+  color: black;
+}
+
+.sidebar .current-page{
+  background-color: aqua;
+  color: black;
+}
 
 @media (max-width: 700px) {
 
