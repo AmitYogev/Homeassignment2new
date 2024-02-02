@@ -23,7 +23,9 @@ h1{
 h2{
     font-size:200% ;
 }
-
+p{
+    margin-left: 2px;
+}
 .GD-Sinay{
     border: 2px solid rgba(255, 255, 255, 0.604); 
    
@@ -46,6 +48,7 @@ h2{
     h2{
         font-size:100% ;
     }
+    
 }
 @media (max-width: 370px){
     .flex-box-skills {
