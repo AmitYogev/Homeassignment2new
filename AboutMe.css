@@ -16,6 +16,16 @@ p {
     text-align: left;
     margin-left: 20px;
 }
+.Description-about-myself-and-photo {
+    text-align: center; 
+}
+
+.Description-about-myself-and-photo img {
+    display: block; 
+    margin: 0 auto; 
+    max-width: 100%; 
+}
+
 @media (max-width:700px){
     h1{
         font-size: 200%;  
@@ -24,4 +34,9 @@ p {
         font-size: 150%;
         margin-bottom: 20px;;  
     }
+    Img{
+    height: 70%;
+    width: 70%;
+    }
+    
     }
